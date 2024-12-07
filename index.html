@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking in Nepal</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nepal Hotels</h1>
+        <p>Find your perfect stay in the heart of Nepal.</p>
+    </header>
+
+    <main>
+        <section class="hotel-list">
+            <!-- Hotel Everest View -->
+            <article class="hotel">
+                <img src="imgh1.jpg" alt="Hotel Everest View" class="hotel-image">
+                <h2>Hotel Everest View</h2>
+                <p>Experience the breathtaking views of Mount Everest from your balcony. Luxurious rooms and world-class services await you.</p>
+                <div class="buttons">
+                    <button class="book-now" onclick="bookHotel('Hotel Everest View')">Book Now</button>
+                    <a href="hotel-details.html#everest" class="details-button">View Details</a>
+                </div>
+            </article>
+            <article class="hotel">
+                <img src="imghotel2.jpg" alt="Pokhara Lakeside Resort" class="hotel-image">
+                <h2>Pokhara Lakeside Resort</h2>
+                <p>Stay by the serene Phewa Lake with stunning mountain views. Enjoy boating and peaceful evenings at the lakeside.</p>
+                <div class="buttons">
+                    <button class="book-now" onclick="bookHotel('Pokhara Lakeside Resort')">Book Now</button>
+                    <a href="hotel-details.html#pokhara" class="details-button">View Details</a>
+                </div>
+            </article>
+
+            <!-- Kathmandu Heritage Hotel -->
+            <article class="hotel">
+                <img src="imghotel3.jpg" alt="Kathmandu Heritage Hotel" class="hotel-image">
+                <h2>Kathmandu Heritage Hotel</h2>
+                <p>Immerse yourself in the rich culture and history of Kathmandu. Located near UNESCO World Heritage Sites.</p>
+                <div class="buttons">
+                    <button class="book-now" onclick="bookHotel('Kathmandu Heritage Hotel')">Book Now</button>
+                    <a href="hotel-details.html#kathmandu" class="details-button">View Details</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nepal Hotels. All rights reserved.</p>
+    </footer>
+</body>
+</html>
